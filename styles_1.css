@@ -1,0 +1,59 @@
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.product h3 {
+    color: #333;
+}
+
+.product p {
+    color: #666;
+}
+
+.product button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #218838;
+}
+header {
+    background-color: #4CAF50; /* لون الخلفية */
+    color: white; /* لون النص */
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* توسيط العناصر */
+}
+
+.navbar li {
+    margin: 0 15px; /* مساحة بين العناصر */
+}
+
+.navbar a {
+    color: white; /* لون الروابط */
+    text-decoration: none; /* إزالة خط التسطير */
+    font-size: 18px; /* حجم الخط */
+    position: relative; /* لتفعيل تأثيرات */
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* خط تحت الرابط عند المرور */
+}
+
+.navbar i {
+    margin-left: 5px; /* مسافة بين النص والأيقونة */
+}
+
